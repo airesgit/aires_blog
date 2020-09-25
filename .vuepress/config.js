@@ -1,6 +1,7 @@
 module.exports = {
   "title": "aires_diary",
   "description": "aires_diary",
+   "base": "https://airesgit.github.io/blog_diary/",
   "dest": "public",
   "head": [
     [
