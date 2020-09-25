@@ -1,9 +1,9 @@
 {
   "name": "aires_diary",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "aires_diary",
   "scripts": {
-    "dev": "vuepress dev . --open --host 'localhost'",
+    "dev": "vuepress dev . --open --host localhost",
     "build": "vuepress build ."
   },
   "devDependencies": {
