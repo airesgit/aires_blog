@@ -1,9 +1,11 @@
 ---
-layout: post
-title:  UserAgentUtils获取浏览器相关信息
-category: java 
-tags: [java]
-copyright: java
+title: UserAgentUtils获取浏览器相关信息
+date: 2019-10-23
+tags:
+ - java 
+ - web
+categories: 
+ - java
 ---
 
 ## UserAgentUtils获取浏览器相关信息

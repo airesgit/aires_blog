@@ -1,9 +1,11 @@
 ---
-layout: post
-title:  微服务与springcloud
-category: springcloud 
-tags: [springcloud]
-copyright: springcloud
+title: 微服务与springcloud
+date: 2019-10-24
+tags:
+ - springcloud 
+ - eureka
+categories: 
+ - springcloud
 ---
 
 ## 微服务与springcloud

@@ -1,8 +1,9 @@
 module.exports = {
   "title": "aires_diary",
   "description": "aires_diary",
-   "base": "https://airesgit.github.io/blog_diary/",
-  "dest": "public",
+  "base": "/blogweb/",
+  "dest": "dist",
+  "repo": 'https://github.com/airesgit/blogweb.git',
   "head": [
     [
       "link",
@@ -19,8 +20,14 @@ module.exports = {
       }
     ]
   ],
+  "locales": {
+     '/': {
+           lang: 'zh-CN'
+     }
+  },
   "theme": "reco",
   "themeConfig": {
+    "subSidebar": 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     "nav": [
       {
         "text": "Home",
@@ -54,14 +61,20 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
+/*    "sidebar": {
       "/docs/theme-reco/": [
         "",
         "theme",
         "plugin",
         "api"
       ]
-    },
+    },*/
+    "sidebar": [
+        '/'
+    ],
+    "sidebarDepth": 2, // 默认 1 提取到 h2，0 为禁用，2 为 h2，h3
+    "displayAllHeaders": false, // 默认值：false 侧边栏只会显示由当前活动页面的标题组成的链接
+    "activeHeaderLinks": true, // 默认值：true 滚动时通过 hash 高亮侧边栏标题
     "type": "blog",
     "blogConfig": {
       "category": {

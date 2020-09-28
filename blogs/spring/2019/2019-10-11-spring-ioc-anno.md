@@ -332,7 +332,7 @@ public class SpringConfiguration {
 启动类不做演示，注解的加载通过AnnotationConfigApplicationContext来实现，和之前说的都一样
 ---
 ## 关于spring4.3之前版本无法链接数据库问题
-![image](http://www.aires.net.cn/assets/images/spring/spring4.3之前版本无法链接数据库.png)
+![image](/aires_blog/assets/images/spring/spring4.3之前版本无法链接数据库.png)
 原因是4.3之前版本需要手动去创建**PropertySourcesPlaceholderConfigurer**对象，解析属性文件;4.3之后已经不需要我们手动去创建该对象来解析配置文件了。
 所以4.3之前版本需要加上这么一段配置
 ```java

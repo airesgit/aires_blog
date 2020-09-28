@@ -75,7 +75,7 @@ public class CustomerAction {
 
 ---
 ### 工厂类的结构图
-![iamge](http://www.aires.net.cn/assets/images/spring/spring工厂类结构图.png)
+![iamge](/aires_blog/assets/images/spring/spring工厂类结构图.png)
 
 从图中我们可以看出，ApplicationContext还有一个顶层接口BeanFactory，那么它们有什么区别呢？
 
@@ -196,7 +196,7 @@ public class CustomerAction {
 
 ```
 从结果可以看出，对象在创建完成之后会去调用init-method所指定的函数，在对象销毁前会去指定destroy-method指定的函数
-![iamge](http://www.aires.net.cn/assets/images/spring/init-destroy.png)
+![iamge](/aires_blog/assets/images/spring/init-destroy.png)
 
 
 ---
@@ -475,6 +475,6 @@ public class CollectionDaoImpl implements CustomerDao {
 
 ---
 **作者：aires的收藏馆**  
-**出处：[www.aires.net.cn](http://www.aires.net.cn)**   
+**出处：[www.aires.net.cn](/aires_blog)**   
 **版权所有，欢迎保留原文链接进行转载** 
 

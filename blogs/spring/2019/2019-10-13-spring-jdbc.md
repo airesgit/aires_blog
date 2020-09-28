@@ -11,10 +11,10 @@ categories:
 
 #### 前置
 spring框架中提供的一个持久层操作对象，是对jdbc API的封装。如下是持久层总图
-![image](http://www.aires.net.cn/assets/images/spring/jdbcTemplate-持久层总图.png)
+![image](/aires_blog/assets/images/spring/jdbcTemplate-持久层总图.png)
 
 对于持久层的操作，spring提供了一系列的模板
-![image](http://www.aires.net.cn/assets/images/spring/jdbcTemplate-模板图.png)
+![image](/aires_blog/assets/images/spring/jdbcTemplate-模板图.png)
 
 ---
 示例
